@@ -1,7 +1,7 @@
 const filtrarPorQuantidadeDeDigitos = (arr, n) => {
     let res = []
     res = arr.filter(e => {
-        if (e.toString().length === n) {
+        if (e.toString().length == n) {
             return e
         }
     })
